@@ -47,7 +47,7 @@
             // 
             this.txtMessage.Location = new System.Drawing.Point(116, 150);
             this.txtMessage.Name = "txtMessage";
-            this.txtMessage.Size = new System.Drawing.Size(483, 136);
+            this.txtMessage.Size = new System.Drawing.Size(548, 136);
             this.txtMessage.TabIndex = 2;
             this.txtMessage.Text = "";
             // 
@@ -55,6 +55,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label2.ForeColor = System.Drawing.Color.Blue;
             this.label2.Location = new System.Drawing.Point(28, 24);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(688, 28);
@@ -64,12 +65,13 @@
             // linkLabel1
             // 
             this.linkLabel1.AutoSize = true;
-            this.linkLabel1.Location = new System.Drawing.Point(311, 312);
+            this.linkLabel1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.linkLabel1.Location = new System.Drawing.Point(609, 308);
             this.linkLabel1.Name = "linkLabel1";
-            this.linkLabel1.Size = new System.Drawing.Size(76, 20);
+            this.linkLabel1.Size = new System.Drawing.Size(58, 20);
             this.linkLabel1.TabIndex = 4;
             this.linkLabel1.TabStop = true;
-            this.linkLabel1.Text = "linkLabel1";
+            this.linkLabel1.Text = "Predict";
             this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
             // 
             // SpamDetection
